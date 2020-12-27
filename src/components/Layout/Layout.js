@@ -1,10 +1,36 @@
-import React from "react";
+import React, { Component } from "react";
 import Aux from "../../hoc/Aux";
+import classes from "./Layout.css";
+import Toolbar from "../Toolbar/Toolbar";
+import SideDrawer from "../Nav/Sidedrawer/SideDrawer";
 
-const layout = () => (
-  <Aux>
-    <h1>Bart Piasek</h1>
-  </Aux>
-);
+class Layout extends Component {
+  state = {
+    showSideDrawer: false,
+  };
 
-export default layout;
+  sidedrawerClosedHandler = () => {
+    this.setState({ showSideDrawer: false });
+  };
+
+  sidedrawerToggleHandler = () => {
+    this.setState((prevState) => {
+      return { showSideDrawer: !prevState.showSideDrawer };
+    });
+  };
+
+  render() {
+    return (
+      <Aux>
+        <Toolbar drawerToggleClick={this.sidedrawerToggleHandler} />
+        <SideDrawer
+          open={this.state.showSideDrawer}
+          closed={this.sidedrawerClosedHandler}
+        />
+        <main className={classes.Content}>{this.props.children}</main>
+      </Aux>
+    );
+  }
+}
+
+export default Layout;
