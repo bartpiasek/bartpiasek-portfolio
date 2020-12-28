@@ -1,7 +1,7 @@
 export const homeObjOne = {
-  lightBg: false,
-  lightText: true,
-  lightTextDesc: true,
+  lightBg: true,
+  lightText: false,
+  lightTextDesc: false,
   headline: "BART PIASEK",
   description: "Python Django Javascript React",
   buttonLabel: "My GitHub",
@@ -23,9 +23,9 @@ export const homeObjTwo = {
 };
 
 export const homeObjThree = {
-  lightBg: false,
-  lightText: true,
-  lightTextDesc: true,
+  lightBg: true,
+  lightText: false,
+  lightTextDesc: false,
   headline: "HOW I LEARN?",
   description: "Python Django Javascript React",
   buttonLabel: "My GitHub",
