@@ -6,7 +6,7 @@ export const homeObjOne = {
   description: "Junior Developer",
   buttonLabel: "My GitHub",
   imgStart: "",
-  img: "images/back2.png",
+  img: "images/imgnew2.png",
   alt: "credit",
 };
 
