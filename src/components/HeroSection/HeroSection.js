@@ -6,7 +6,6 @@ import { VscCode } from "react-icons/vsc";
 
 function HeroSection({
   lightBg,
-  topLine,
   lightText,
   lightTextDesc,
   headline,

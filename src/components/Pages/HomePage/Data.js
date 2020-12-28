@@ -3,7 +3,7 @@ export const homeObjOne = {
   lightText: false,
   lightTextDesc: false,
   headline: "BART PIASEK",
-  description: "Python Django Javascript React",
+  description: "Junior Developer",
   buttonLabel: "My GitHub",
   imgStart: "",
   img: "images/back2.png",
@@ -15,10 +15,6 @@ export const homeObjTwo = {
   lightText: false,
   lightTextDesc: false,
   headline: "MY PROJECT",
-  description: "Python Django Javascript React",
-  buttonLabel: "My GitHub",
-  imgStart: "",
-  img: "images/back2.png",
   alt: "credit",
 };
 
@@ -27,7 +23,7 @@ export const homeObjThree = {
   lightText: false,
   lightTextDesc: false,
   headline: "HOW I LEARN?",
-  description: "Python Django Javascript React",
+  description: "My skills, workflow, tools",
   buttonLabel: "My GitHub",
   imgStart: "",
   img: "images/back2.png",

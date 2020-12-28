@@ -1,16 +1,16 @@
 import React from "react";
-import HeroSection from "../../HeroSection/HeroSection";
-import Proj from "../../Proj/Proj";
+import HeroSection from "../../HeroSection";
 import { homeObjOne, homeObjTwo, homeObjThree, homeObjFour } from "./Data";
+import Pricing from "../../Pricing";
 
-function Home() {
+function Projects() {
   return (
     <div>
+      <Projects />
       <HeroSection {...homeObjOne} />
-      <Proj />
       <HeroSection {...homeObjThree} />
     </div>
   );
 }
 
-export default Home;
+export default Projects;
