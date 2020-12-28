@@ -1,10 +1,15 @@
 import "./App.css";
+import Navbar from "./components/Navbar/Navbar";
+import { Route, BrowserRouter as Router, Switch } from "react-router-dom";
 
 function App() {
   return (
-    <div className="App">
-      <h3>BART PIASEK</h3>
-    </div>
+    <Router>
+      <Navbar />
+      <Switch>
+        <Route path="/" />
+      </Switch>
+    </Router>
   );
 }
 
