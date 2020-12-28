@@ -1,6 +1,6 @@
 .navbar {
-  background: whitesmoke;
-  height: 80px;
+  background: hsla(0, 20%, 97%, 0.5);
+  height: 70px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -28,7 +28,7 @@
 }
 
 .navbar-logo {
-  color: rgb(52, 28, 65);
+  color: rgb(0, 0, 0);
   justify-self: start;
   cursor: pointer;
   text-decoration: none;
