@@ -10,7 +10,7 @@ function Navbar() {
     <div className="navbar">
       <div className="navbar-container container">
         <Link to="/" className="navbar-logo">
-          BART PIASEK dev
+          BART PIASEK
         </Link>
         <div className="menu-icon" onClick={handleClicked}>
           {clicked ? <VscClose /> : <VscListSelection />}
