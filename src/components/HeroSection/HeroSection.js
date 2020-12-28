@@ -27,7 +27,6 @@ function HeroSection({
             }}
           >
             <div className="home__hero-text-wrapper">
-              <div className="top-line">{topLine}</div>
               <h1 className={lightText ? "heading" : "heading dark"}>
                 {headline}
               </h1>
