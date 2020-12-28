@@ -2,6 +2,7 @@ import React from "react";
 import Button from "../Button/Button";
 import { Link } from "react-router-dom";
 import "./HeroSection.css";
+import { VscCode } from "react-icons/vsc";
 
 function HeroSection({
   lightBg,
@@ -30,6 +31,10 @@ function HeroSection({
               <h1 className={lightText ? "heading" : "heading dark"}>
                 {headline}
               </h1>
+              {/* <div className="background-wrapper">
+                <VscCode className="background-icon" />
+              </div> */}
+
               <p
                 className={
                   lightTextDesc
