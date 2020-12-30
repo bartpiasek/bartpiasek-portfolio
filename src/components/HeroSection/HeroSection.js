@@ -2,7 +2,7 @@ import React from "react";
 import Button from "../Button/Button";
 import { Link } from "react-router-dom";
 import "./HeroSection.css";
-import { VscCode } from "react-icons/vsc";
+import { SiJavascript } from "react-icons/si";
 
 function HeroSection({
   lightBg,
