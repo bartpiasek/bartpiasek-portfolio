@@ -1,9 +1,7 @@
 import React from "react";
 import Button from "../Button/Button";
 import "./Proj.css";
-import { FaFire } from "react-icons/fa";
-import { SiJavascript, SiPython, SiReact } from "react-icons/si";
-import { GiCrystalize } from "react-icons/gi";
+import { SiReact } from "react-icons/si";
 import { IconContext } from "react-icons/lib";
 import { Link } from "react-router-dom";
 

@@ -2,7 +2,7 @@ import React from "react";
 import Button from "../Button/Button";
 import { Link } from "react-router-dom";
 import "./HeroSection.css";
-import { SiJavascript } from "react-icons/si";
+import HomeFooter from "../Footer/HomeFooter/HomeFooter";
 
 function HeroSection({
   lightBg,
