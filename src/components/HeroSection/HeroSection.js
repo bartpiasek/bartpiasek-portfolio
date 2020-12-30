@@ -26,33 +26,35 @@ function HeroSection({
               flexDirection: imgStart === "start" ? "row-reverse" : "row",
             }}
           >
-            <div className="home__hero-text-wrapper">
-              <h1 className={lightText ? "heading" : "heading dark"}>
-                {headline}
-              </h1>
-              {/* <div className="background-wrapper">
+            <div className="col">
+              <div className="home__hero-text-wrapper">
+                <h1 className={lightText ? "heading" : "heading dark"}>
+                  {headline}
+                </h1>
+                {/* <div className="background-wrapper">
                 <VscCode className="background-icon" />
               </div> */}
 
-              <p
-                className={
-                  lightTextDesc
-                    ? "home__hero-subtitle"
-                    : "home__hero-subtitle dark"
-                }
-              >
-                {description}
-              </p>
-              <Link to="/github">
-                <Button buttonSize="btn--wide" buttonColor="black">
-                  {buttonLabel}
-                </Button>
-              </Link>
+                <p
+                  className={
+                    lightTextDesc
+                      ? "home__hero-subtitle"
+                      : "home__hero-subtitle dark"
+                  }
+                >
+                  {description}
+                </p>
+                <Link to="/github">
+                  <Button buttonSize="btn--wide" buttonColor="black">
+                    {buttonLabel}
+                  </Button>
+                </Link>
+              </div>
             </div>
-          </div>
-          <div className="col">
-            <div className="home__hero-img-wrapper">
-              <img src={img} alt={alt} className="home__hero-img"></img>
+            <div className="col">
+              <div className="home__hero-img-wrapper">
+                <img src={img} alt={alt} className="home__hero-img" />
+              </div>
             </div>
           </div>
         </div>

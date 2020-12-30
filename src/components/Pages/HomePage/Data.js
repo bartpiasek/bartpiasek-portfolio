@@ -6,7 +6,7 @@ export const homeObjOne = {
   description: "Junior Developer",
   buttonLabel: "My GitHub",
   imgStart: "",
-  img: "images/imgnew2.png",
+  img: "images/imgnewwhite.png",
   alt: "credit",
 };
 
@@ -26,7 +26,7 @@ export const homeObjThree = {
   description: "My skills, workflow, tools",
   buttonLabel: "My GitHub",
   imgStart: "",
-  img: "images/back2.png",
+  img: "images/imgnewwhite.png",
   alt: "credit",
 };
 
@@ -38,6 +38,6 @@ export const homeObjFour = {
   description: "Python Django Javascript React",
   buttonLabel: "My GitHub",
   imgStart: "",
-  img: "images/back2.png",
+  img: "images/imgnewwhite.png",
   alt: "credit",
 };

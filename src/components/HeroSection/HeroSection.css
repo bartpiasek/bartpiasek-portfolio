@@ -1,6 +1,6 @@
 .home__hero-section {
   color: #fff;
-  padding: 160px 0;
+  padding: 100px 0;
 }
 
 .home__hero-row {
@@ -28,7 +28,7 @@
 .home__hero-text-wrapper {
   max-width: 540px;
   padding-top: 0;
-  padding-bottom: 60px;
+  padding-bottom: 20px;
   /* z-index: 1;
   position: relative; */
 }
@@ -97,7 +97,7 @@ img {
 
 @media screen and (max-width: 768px) {
   .home__hero-text-wrapper {
-    padding-bottom: 65px;
+    padding-bottom: 10px;
   }
 
   .col {
