@@ -51,6 +51,9 @@
 .btn--wide {
   padding: 12px 64px;
   font-size: 20px;
+  border: 1px solid var(--primary);
+  transition: all 0.3s ease-out;
+  border-color: #f00946;
 }
 
 .btn--large:hover,

@@ -36,6 +36,10 @@
   display: flex;
   align-items: center;
 }
+.navbar-logo:hover {
+  transform: rotate(360deg);
+  transition: all 0.3s;
+}
 
 .navbar-icon {
   margin-right: 0.5rem;
