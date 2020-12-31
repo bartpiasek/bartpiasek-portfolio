@@ -2,7 +2,6 @@ import React from "react";
 import Button from "../Button/Button";
 import { Link } from "react-router-dom";
 import "./HeroSection.css";
-import HomeFooter from "../Footer/HomeFooter/HomeFooter";
 
 function HeroSection({
   lightBg,
@@ -44,7 +43,7 @@ function HeroSection({
                 >
                   {description}
                 </p>
-                <Link to="/github">
+                <Link to="http://github.com/bartpiasek">
                   <Button buttonSize="btn--wide" buttonColor="black">
                     {buttonLabel}
                   </Button>

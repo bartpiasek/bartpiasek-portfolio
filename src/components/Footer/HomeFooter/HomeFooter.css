@@ -73,6 +73,7 @@
 .social-media {
   max-width: 1000px;
   width: 100%;
+  align-items: center;
 }
 
 .social-media-wrap {
@@ -82,6 +83,8 @@
   width: 90%;
   max-width: 1000px;
   margin: 40px auto 0 auto;
+  /* horizontally */
+  position: relative;
 }
 
 .social-icons {
@@ -89,6 +92,11 @@
   justify-content: space-between;
   align-items: center;
   width: 240px;
+  /* horizontally */
+  /* position: absolute; */
+  top: 50%;
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
 }
 
 .social-logo {
@@ -100,11 +108,6 @@
   font-size: 2rem;
   display: flex;
   align-items: center;
-  margin-bottom: 16px;
-}
-
-.website-rights {
-  color: #fff;
   margin-bottom: 16px;
 }
 

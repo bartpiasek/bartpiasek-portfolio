@@ -17,7 +17,7 @@ function Navbar() {
         </div>
         <ul className={clicked ? "nav-menu active" : "nav-menu"}>
           <li className="nav-item">
-            <Link to="/me" className="nav-links">
+            <Link to="/aboutme" className="nav-links">
               About Me
             </Link>
           </li>

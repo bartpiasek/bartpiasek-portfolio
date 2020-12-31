@@ -10,7 +10,6 @@ import {
   SiAdobeillustrator,
   SiPostman,
   SiVisualstudiocode,
-  SiGooglechrome,
 } from "react-icons/si";
 
 function HomeFooter() {
@@ -66,6 +65,22 @@ function HomeFooter() {
               aria-label="LinkedIn"
             >
               <SiPostman />
+            </Link>
+            <Link
+              className="social-icon-link"
+              to="/"
+              target="_blank"
+              aria-label="LinkedIn"
+            >
+              <SiVisualstudiocode />
+            </Link>
+            <Link
+              className="social-icon-link"
+              to="/"
+              target="_blank"
+              aria-label="LinkedIn"
+            >
+              <SiAdobeillustrator />
             </Link>
           </div>
         </div>
