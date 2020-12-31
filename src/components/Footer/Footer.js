@@ -12,7 +12,7 @@ function Footer() {
           <div className="social-icons">
             <Link
               className="social-icon-link"
-              to="/"
+              to={"//www.facebook.com/bartpiasek"}
               target="_blank"
               aria-label="Facebook"
             >
@@ -20,7 +20,7 @@ function Footer() {
             </Link>
             <Link
               className="social-icon-link"
-              to="/"
+              to={"//www.github.com/bartpiasek"}
               target="_blank"
               aria-label="Github"
             >
@@ -28,7 +28,7 @@ function Footer() {
             </Link>
             <Link
               className="social-icon-link"
-              to="/"
+              to={"//www.linkedin.com/in/bartpiasek/"}
               target="_blank"
               aria-label="LinkedIn"
             >

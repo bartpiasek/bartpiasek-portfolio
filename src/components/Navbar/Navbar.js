@@ -32,7 +32,11 @@ function Navbar() {
             </Link>
           </li>
           <li className="nav-item">
-            <Link to="http://github.com/bartpiasek" className="nav-links">
+            <Link
+              to={"//www.github.com/bartpiasek"}
+              target="_blank"
+              className="nav-links"
+            >
               GitHub
             </Link>
           </li>

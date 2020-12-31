@@ -43,7 +43,7 @@ function HeroSection({
                 >
                   {description}
                 </p>
-                <Link to="http://github.com/bartpiasek">
+                <Link to={"//www.github.com/bartpiasek"} target="_blank">
                   <Button buttonSize="btn--wide" buttonColor="black">
                     {buttonLabel}
                   </Button>
