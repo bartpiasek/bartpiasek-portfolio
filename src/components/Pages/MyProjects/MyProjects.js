@@ -6,7 +6,7 @@ import { MyProjectsOne } from "./Data";
 function MyProjects() {
   return (
     <div>
-      <HeroSection {...MyProjectsOne} />
+      {/* <HeroSection {...MyProjectsOne} /> */}
       <ProjectCard6 />
     </div>
   );
