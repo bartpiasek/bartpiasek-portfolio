@@ -10,7 +10,7 @@ function Proj() {
     <IconContext.Provider value={{ color: "#000000", size: 64 }}>
       <div className="pricing__section">
         <div className="pricing__wrapper">
-          <h1 className="pricing__heading">My Projects</h1>
+          <h1 className="pricing__heading">My TOP 3 Projects</h1>
           <div className="pricing__container">
             <Link to="/sign-up" className="pricing__container-card">
               <div className="pricing__container-cardInfo">
@@ -24,9 +24,9 @@ function Proj() {
                   <li>asdf</li>
                   <li>asdf</li>
                 </ul>
-                <Button buttonSize="btn--wide" buttonColor="primary">
+                {/* <Button buttonSize="btn--wide" buttonColor="primary">
                   GitHub repo
-                </Button>
+                </Button> */}
               </div>
             </Link>
             <Link to="/sign-up" className="pricing__container-card">
@@ -41,9 +41,9 @@ function Proj() {
                   <li>asdf</li>
                   <li>asdf</li>
                 </ul>
-                <Button buttonSize="btn--wide" buttonColor="primary">
+                {/* <Button buttonSize="btn--wide" buttonColor="primary">
                   GitHub repo
-                </Button>
+                </Button> */}
               </div>
             </Link>
             <Link to="/sign-up" className="pricing__container-card">
@@ -58,9 +58,9 @@ function Proj() {
                   <li>asdf</li>
                   <li>asdf</li>
                 </ul>
-                <Button buttonSize="btn--wide" buttonColor="primary">
+                {/* <Button buttonSize="btn--wide" buttonColor="primary">
                   GitHub repo
-                </Button>
+                </Button> */}
               </div>
             </Link>
           </div>
