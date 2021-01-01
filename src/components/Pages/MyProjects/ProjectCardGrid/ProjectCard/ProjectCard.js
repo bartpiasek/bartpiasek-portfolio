@@ -1,5 +1,5 @@
 import React from "react";
-import "./ProjectCard.css";
+import data from "./ProjectCardData";
 import { SiReact } from "react-icons/si";
 import { IconContext } from "react-icons/lib";
 import { Link } from "react-router-dom";
@@ -11,7 +11,7 @@ function ProjectCard() {
         <div className="icon">
           <SiReact className="icon" />
         </div>
-        <h3>Tytuł projektu</h3>
+        <h3>fh</h3>
         <p>description</p>
         <ul className="pricing__container-features">
           <li>asdf</li>

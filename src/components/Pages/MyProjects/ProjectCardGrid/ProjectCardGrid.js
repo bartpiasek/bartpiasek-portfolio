@@ -2,6 +2,7 @@ import React from "react";
 import "./ProjectCardGrid.css";
 import { IconContext } from "react-icons/lib";
 import ProjectCard from "./ProjectCard/ProjectCard";
+import ProjectOne from "./ProjectCard/ProjectCardData";
 
 function ProjectCardGrid() {
   return (
@@ -10,7 +11,7 @@ function ProjectCardGrid() {
         <div className="pricing__wrapper">
           <h1 className="pricing__heading">My Projects</h1>
           <div className="pricing__container">
-            <ProjectCard />
+            <ProjectCard {...ProjectOne} />
             <ProjectCard />
             <ProjectCard />
           </div>
