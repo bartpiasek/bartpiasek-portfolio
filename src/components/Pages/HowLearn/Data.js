@@ -4,7 +4,7 @@ export const HowLearn = {
   lightTextDesc: false,
   headline: "My learning path",
   description: "How I learn new language, skills, tools?",
-  buttonLabel: "My GitHub",
+  // buttonLabel: "My GitHub",
   imgStart: "",
   // img: "images/imgnewwhite.png",
   alt: "credit",

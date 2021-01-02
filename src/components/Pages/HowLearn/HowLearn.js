@@ -6,7 +6,7 @@ import GithubActivity from "./GithubActivity/GithubActivity";
 function HowILearn() {
   return (
     <div>
-      <MainHeader />
+      <MainHeader {...HowLearn} />
       <GithubActivity />
     </div>
   );

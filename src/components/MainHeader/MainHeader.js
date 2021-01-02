@@ -5,20 +5,67 @@ import { SiReact } from "react-icons/si";
 import { IconContext } from "react-icons/lib";
 import { Link } from "react-router-dom";
 
-function MainHeader() {
+function MainHeaderTxt({
+  lightBg,
+  lightText,
+  lightTextDesc,
+  headline,
+  headlineTwo,
+  description,
+  descriptionTwo,
+  buttonLabel,
+  img,
+  alt,
+  imgStart,
+}) {
   return (
-    <IconContext.Provider value={{ color: "#fff", size: 64 }}>
-      <div className="pricing__section">
-        <div className="pricing__wrapper">
-          <h1 className="pricing__heading">My Projects</h1>
-          <div className="pricing__container">
-            <h1>asdf</h1>
-            <h1>asdf</h1>
+    <div>
+      <div className={lightBg ? "home__hero-section" : "home__section darkBg"}>
+        <div className="container">
+          <div
+            className="row home__hero-row"
+            style={{
+              display: "flex",
+              flexDirection: imgStart === "start" ? "row-reverse" : "row",
+            }}
+          >
+            <div className="col">
+              <div className="home__hero-text-wrapper">
+                <h1 className={lightText ? "heading" : "heading dark"}>
+                  {headline}
+                </h1>
+                <p
+                  className={
+                    lightTextDesc
+                      ? "home__hero-subtitle"
+                      : "home__hero-subtitle dark"
+                  }
+                >
+                  {description}
+                </p>
+              </div>
+            </div>
+            <div className="col">
+              <div className="home__hero-text-wrapper">
+                <h1 className={lightText ? "heading" : "heading dark"}>
+                  {headlineTwo}
+                </h1>
+                <p
+                  className={
+                    lightTextDesc
+                      ? "home__hero-subtitle"
+                      : "home__hero-subtitle dark"
+                  }
+                >
+                  {descriptionTwo}
+                </p>
+              </div>
+            </div>
           </div>
         </div>
       </div>
-    </IconContext.Provider>
+    </div>
   );
 }
 
-export default MainHeader;
+export default MainHeaderTxt;
