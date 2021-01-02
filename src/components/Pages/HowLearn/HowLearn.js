@@ -8,7 +8,7 @@ function HowILearn() {
   return (
     <div>
       <HeroSection {...HowLearn} />
-      {/* <LearningLine /> */}
+      <LearningLine />
       <GithubActivity />
     </div>
   );
