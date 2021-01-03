@@ -1,7 +1,6 @@
 import React from "react";
 import HomeFooter from "../../Footer/HomeFooter/HomeFooter";
 import HeroSection from "../../HeroSection/HeroSection";
-import Proj from "../../Proj/Proj";
 import { homeObjOne, homeObjThree } from "./Data";
 
 function Home() {
@@ -9,7 +8,7 @@ function Home() {
     <div>
       <HeroSection {...homeObjOne} />
       <HomeFooter />
-      <Proj />
+      {/* add my top 3 project */}
       <HeroSection {...homeObjThree} />
     </div>
   );

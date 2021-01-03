@@ -1,9 +1,5 @@
 import React from "react";
-import Button from "../Button/Button";
 import "./MainHeader.css";
-import { SiReact } from "react-icons/si";
-import { IconContext } from "react-icons/lib";
-import { Link } from "react-router-dom";
 
 function MainHeaderTxt({
   lightBg,
