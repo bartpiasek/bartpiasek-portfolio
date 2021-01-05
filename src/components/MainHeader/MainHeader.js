@@ -1,4 +1,6 @@
 import React from "react";
+import { Link } from "react-router-dom";
+import Button from "../Button/Button";
 import "./MainHeader.css";
 
 function MainHeaderTxt({
@@ -10,8 +12,6 @@ function MainHeaderTxt({
   description,
   descriptionTwo,
   buttonLabel,
-  img,
-  alt,
   imgStart,
 }) {
   return (
@@ -39,6 +39,11 @@ function MainHeaderTxt({
                 >
                   {description}
                 </p>
+                <Link to={"//www.github.com/bartpiasek"} target="_blank">
+                  <Button buttonSize="btn--wide" buttonColor="black">
+                    {buttonLabel}
+                  </Button>
+                </Link>
               </div>
             </div>
             <div className="col">

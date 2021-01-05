@@ -28,7 +28,7 @@ function Navbar() {
           </li>
           <li className="nav-item">
             <Link to="/learning-path" className="nav-links">
-              How I learn?
+              My skills
             </Link>
           </li>
           <li className="nav-item">
