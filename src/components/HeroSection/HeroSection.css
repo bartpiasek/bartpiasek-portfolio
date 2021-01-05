@@ -70,11 +70,11 @@
 }
 
 .home__hero-img-wrapper {
-  max-width: 455px;
+  max-width: 355px;
 }
 
 .home__hero-img {
-  max-width: 95%;
+  max-width: 75%;
   margin-top: 0;
   margin-right: 0;
   margin-left: 10px;
@@ -83,7 +83,7 @@
 
 img {
   border: 0;
-  max-width: 100%;
+  max-width: 70%;
   vertical-align: middle;
   display: inline-block;
 }
@@ -101,7 +101,7 @@ img {
   }
 
   .col {
-    max-width: 70%;
+    max-width: 50%;
     flex-basis: 100%;
   }
 }
