@@ -8,7 +8,7 @@ export const HowLearn = {
   imgStart: "",
   // img: "images/imgnewwhite.png",
   alt: "credit",
-  headlineTwo: "70 / 30",
+  headlineTwo: "consistency and curiosity",
   descriptionTwo:
     "70% active learning (coding, writing code snippets 30% pasive learning (books, watching tutorial without coding)",
 };

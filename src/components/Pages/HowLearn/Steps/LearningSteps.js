@@ -10,20 +10,53 @@ function LearningSteps({
   headlineTwo,
   description,
   descriptionTwo,
-  img,
-  alt,
   imgStart,
 }) {
   return (
-    <div className="steps__card">
-      <div className="pricing__section">
-        {/* <div className="pricing__container-cardInfo"> */}
-        <h3>{headline}</h3>
-        <hr className="horizontal-line" />
-        <p>{description}</p>
-        <ul className="pricing__container-features">
-          <p>{descriptionTwo}</p>
-        </ul>
+    <div>
+      <div className={lightBg ? "home__hero-section" : "home__section darkBg"}>
+        <div className="container">
+          <div
+            className="row home__hero-row"
+            style={{
+              display: "flex",
+              flexDirection: imgStart === "start" ? "row-reverse" : "row",
+            }}
+          >
+            <div className="col">
+              <div className="home__hero-text-wrapper">
+                <h1 className={lightText ? "heading" : "heading dark"}>
+                  {headline}
+                </h1>
+                <p
+                  className={
+                    lightTextDesc
+                      ? "home__hero-subtitle"
+                      : "home__hero-subtitle dark"
+                  }
+                >
+                  {description}
+                </p>
+              </div>
+            </div>
+            <div className="col">
+              <div className="home__hero-text-wrapper">
+                <h1 className={lightText ? "heading" : "heading dark"}>
+                  {headlineTwo}
+                </h1>
+                <p
+                  className={
+                    lightTextDesc
+                      ? "home__hero-subtitle"
+                      : "home__hero-subtitle dark"
+                  }
+                >
+                  {descriptionTwo}
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
       </div>
     </div>
   );

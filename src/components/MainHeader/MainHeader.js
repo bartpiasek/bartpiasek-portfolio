@@ -58,6 +58,7 @@ function MainHeaderTxt({
               </div>
             </div>
           </div>
+          <hr />
         </div>
       </div>
     </div>
