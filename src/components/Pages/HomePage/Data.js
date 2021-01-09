@@ -10,38 +10,16 @@ export const homeObjOne = {
   alt: "credit",
 };
 
-export const homeObjTwo = {
+export const TextOne = {
   lightBg: true,
   lightText: false,
   lightTextDesc: false,
-  headline: "Javascript & React",
-  description: "Junior Developer",
-  buttonLabel: "My GitHub",
+  headline: "My learning path",
+  description: "How I learn new language, skills, tools?",
+  buttonLabel: "Download my PDF dev roadmap",
   imgStart: "",
-  img: "images/imgnewwhite.png",
   alt: "credit",
-};
-
-export const homeObjThree = {
-  lightBg: true,
-  lightText: false,
-  lightTextDesc: false,
-  headline: "Python & Django",
-  description: "asdf",
-  buttonLabel: "My GitHub",
-  imgStart: "",
-  img: "images/imgnewwhite.png",
-  alt: "credit",
-};
-
-export const homeObjFour = {
-  lightBg: true,
-  lightText: false,
-  lightTextDesc: false,
-  headline: "BART PIASEK",
-  description: "Junior Developer",
-  buttonLabel: "My GitHub",
-  imgStart: "",
-  img: "images/imgnewwhite.png",
-  alt: "credit",
+  headlineTwo: "consistency and curiosity",
+  descriptionTwo:
+    "70% active learning (coding, writing code snippets 30% pasive learning (books, watching tutorial without coding)",
 };
