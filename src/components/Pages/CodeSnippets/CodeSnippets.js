@@ -1,12 +1,14 @@
 import React from "react";
 import GithubActivity from "./GithubActivity/GithubActivity";
+import ProjectCardGrid from "./ProjectCardGrid/ProjectCardGrid";
 
-function HowILearn() {
+function CodeSnippets() {
   return (
     <div>
+      <ProjectCardGrid />
       <GithubActivity />
     </div>
   );
 }
 
-export default HowILearn;
+export default CodeSnippets;

@@ -1,7 +1,5 @@
 import React from "react";
-import data from "./ProjectCardData";
 import { SiReact } from "react-icons/si";
-import { IconContext } from "react-icons/lib";
 import { Link } from "react-router-dom";
 
 function ProjectCard() {
